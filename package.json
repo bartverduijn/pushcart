@@ -4,6 +4,7 @@
   "description": "Share your shopping lists with your roommates, friends or family members. 🛒",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/server/server.js",
     "test": "jest"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "jest": "^22.0.4"
   },
   "dependencies": {
+    "adaro": "^1.0.4",
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
   }
