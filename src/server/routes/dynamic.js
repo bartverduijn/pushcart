@@ -16,7 +16,7 @@ dynamic.set('view engine', 'dust');
 dynamic.set('views', viewPath);
 
 dynamic.get('/', (req, res) => {
-    res.send('Hello world! 👋');
+    res.render('index');
 });
 
 module.exports = dynamic;
