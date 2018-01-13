@@ -4,7 +4,7 @@
   "description": "Share your shopping lists with your roommates, friends or family members. 🛒",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/server/server.js",
+    "start": "nodemon ./src/server/server.js",
     "test": "jest"
   },
   "repository": {
@@ -21,7 +21,10 @@
     "eslint": "^4.14.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "jest": "^22.0.4"
+    "jest": "^22.0.4",
+    "nodemon": "^1.14.11",
+    "tailwindcss": "^0.4.0",
+    "webpack": "^3.10.0"
   },
   "dependencies": {
     "adaro": "^1.0.4",
