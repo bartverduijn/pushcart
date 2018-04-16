@@ -2,8 +2,22 @@
     "env": {
         "es6": true
     },
-    "extends": "airbnb-base",
+    "extends": [
+        "airbnb-base",
+        "plugin:prettier/recommended"
+    ],
     "rules": {
-        "indent": [2, 4]
+        "indent": [
+            2,
+            4
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "tabWidth": 4,
+                "singleQuote": true,
+                "trailingComma": "es5"
+            }
+        ]
     }
 }

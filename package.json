@@ -18,11 +18,16 @@
   },
   "homepage": "https://github.com/bartverduijn/pushcart#readme",
   "devDependencies": {
+    "autoprefixer": "^7.2.5",
     "eslint": "^4.14.0",
     "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "jest": "^22.0.4",
     "nodemon": "^1.14.11",
+    "postcss-loader": "^2.1.0",
+    "prettier": "^1.10.2",
     "tailwindcss": "^0.4.0",
     "webpack": "^3.10.0"
   },
